@@ -47,10 +47,12 @@ if (xp <= 1000) {
   } 
 
 // Saídas
-console.log(`O Herói de nome ${nome} está no nível ${nivel}`)
+console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
 
 if(xp <= 10000){
   console.log(`Para alcançar o próximo nível o herói precisa de ${prox_nivel} pontos de xp`)
+  console.log('Continue assim')
 }else{
   console.log(`O herói está no nível máximo`)
+  console.log('Parabéns')
 }
