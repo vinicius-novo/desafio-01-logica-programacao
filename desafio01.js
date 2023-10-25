@@ -20,7 +20,7 @@ let xp = 1258
 let nivel = ""
 let prox_nivel = ""
 
-//Estruturas de decisão
+//Estruturas condicionais
 if (xp <= 1000) {
   nivel = "Ferro"
   prox_nivel = 1001 - xp
