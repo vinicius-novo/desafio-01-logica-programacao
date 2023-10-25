@@ -16,7 +16,7 @@
 
 //Declaração das variáveis
 let nome = "Vinicius"
-let xp = 52000
+let xp = 1258
 let nivel = ""
 let prox_nivel = ""
 
