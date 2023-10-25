@@ -16,7 +16,7 @@
 
 //Declaração das variáveis
 let nome = "Vinicius"
-let xp = 1000
+let xp = 52000
 let nivel = ""
 let prox_nivel = ""
 
@@ -44,8 +44,7 @@ if (xp <= 1000) {
   prox_nivel = 10001 - xp
 } else {
   nivel = "Radiante"
-  
-} 
+  } 
 
 // Saídas
 console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
