@@ -14,29 +14,44 @@
 // Ao final deve se exibir uma mensagem:
 // "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
+//Declaração das variáveis
 let nome = "Vinicius"
-let xp = 15000
+let xp = 1000
 let nivel = ""
+let prox_nivel = ""
 
+//Estruturas de decisão
 if (xp <= 1000) {
   nivel = "Ferro"
-  prox_nivel = 1000 - xp
+  prox_nivel = 1001 - xp
 } else if (xp <= 2000) {
   nivel = "Bronze"
+  prox_nivel = 2001 - xp
 } else if (xp <= 5000) {
   nivel = "Prata"
+  prox_nivel = 5001 - xp
 } else if (xp <= 7000) {
   nivel = "Ouro"
+  prox_nivel = 7001 - xp
 } else if (xp <= 8000) {
   nivel = "Platina"
+  prox_nivel = 8001 - xp
 } else if (xp <= 9000) {
   nivel = "Ascendente"
+  prox_nivel = 9001 - xp
 } else if (xp <= 10000) {
   nivel = "Imortal"
+  prox_nivel = 10001 - xp
 } else {
   nivel = "Radiante"
+  
 } 
 
+// Saídas
 console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
-console.log(`Para alcançar o próximo nível o herói precisa de ${prox_nivel} pontos de xp`)
 
+if(xp <= 10000){
+  console.log(`Para alcançar o próximo nível o herói precisa de ${prox_nivel} pontos de xp`)
+}else{
+  console.log(`O herói está no nível máximo`)
+}
