@@ -20,6 +20,7 @@ let nivel = ""
 
 if (xp <= 1000) {
   nivel = "Ferro"
+  prox_nivel = 1000 - xp
 } else if (xp <= 2000) {
   nivel = "Bronze"
 } else if (xp <= 5000) {
@@ -37,4 +38,5 @@ if (xp <= 1000) {
 } 
 
 console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
+console.log(`Para alcançar o próximo nível o herói precisa de ${prox_nivel} pontos de xp`)
 
