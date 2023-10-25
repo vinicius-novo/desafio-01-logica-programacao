@@ -15,7 +15,7 @@
 // "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
 let nome = "Vinicius"
-let xp = 2500
+let xp = 15000
 let nivel = ""
 
 if (xp <= 1000) {
@@ -32,8 +32,9 @@ if (xp <= 1000) {
   nivel = "Ascendente"
 } else if (xp <= 10000) {
   nivel = "Imortal"
-} else if (xp >= 10001) {
+} else {
   nivel = "Radiante"
-}
+} 
 
 console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
+
